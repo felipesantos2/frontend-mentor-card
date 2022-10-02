@@ -84,7 +84,16 @@ button:hover {
     justify-content: space-around;
     text-decoration: none;
     margin-top: 5px;
+    background: gold;
+    
     margin-bottom: 5px;
+}
+
+.bg-star {
+    display: block;
+    padding: 10px;
+    border:  1px solid bisque;
+
 }
 
 a.star {
