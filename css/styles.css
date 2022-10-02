@@ -1,9 +1,7 @@
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -35,8 +33,7 @@ body {
     padding: 25px;
     padding-bottom: 10px;
     border-radius: 12px;
-    text-align: left;
-   
+    text-align: left;  
 }
 
 .card h1 {
@@ -80,7 +77,6 @@ button:hover {
 /*stars*/
 .stars {
     display: flex;
-    gap: 5px;
     justify-content: space-around;
     text-decoration: none;
     margin-top: 5px;    
@@ -92,15 +88,16 @@ button:hover {
     padding: 7px 12px;
     border-radius: 50%;
     background: hsl(216, 12%, 54%);
-    cursor: pointer;
 }
-
-a.bg-star:hover {
-    background: hsl(25, 97%, 53%);;
-}
-    
 
 a.star {
     text-decoration: none;
-    color: hsl(213, 19%, 18%)
+    color: hsl(213, 19%, 18%);
 }
+
+.bg-star:hover {
+    background: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+    
+
