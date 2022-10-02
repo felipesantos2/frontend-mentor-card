@@ -83,19 +83,24 @@ button:hover {
     gap: 5px;
     justify-content: space-around;
     text-decoration: none;
-    margin-top: 5px;
-    background: gold;
-    
+    margin-top: 5px;    
     margin-bottom: 5px;
 }
 
 .bg-star {
     display: block;
-    padding: 10px;
-    border:  1px solid bisque;
-
+    padding: 7px 12px;
+    border-radius: 50%;
+    background: hsl(216, 12%, 54%);
+    cursor: pointer;
 }
+
+a.bg-star:hover {
+    background: hsl(25, 97%, 53%);;
+}
+    
 
 a.star {
     text-decoration: none;
+    color: hsl(213, 19%, 18%)
 }
