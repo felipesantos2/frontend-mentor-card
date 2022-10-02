@@ -86,3 +86,7 @@ button:hover {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+a.star {
+    text-decoration: none;
+}
